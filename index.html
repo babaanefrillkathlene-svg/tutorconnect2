@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <h1>TutorConnect</h1>
+  <p>Learn Anytime, Anywhere</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#tutors">Tutors</a>
+  <a href="#schedule">Schedule</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <h2>Find the Best Tutors Online</h2>
+  <p>Book sessions and join Google Meet classes.</p>
+  <button onclick="bookNow()">Book Now</button>
+</section>
+
+<section id="tutors">
+  <h2>Available Tutors</h2>
+
+  <div class="card">
+    <h3>Math Tutor</h3>
+    <p>₱200 per session</p>
+    <button onclick="scheduleSession()">Schedule</button>
+  </div>
+
+  <div class="card">
+    <h3>English Tutor</h3>
+    <p>₱150 per session</p>
+    <button onclick="scheduleSession()">Schedule</button>
+  </div>
+</section>
+
+<section id="schedule">
+  <h2>Book a Session</h2>
+
+  <form id="bookingForm">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <input type="date" required>
+    <input type="time" required>
+
+    <button type="submit">Confirm Booking</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 TutorConnect</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
